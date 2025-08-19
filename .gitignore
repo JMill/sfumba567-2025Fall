@@ -1,0 +1,23 @@
+# worklog. last edit 2025-08-19 by jmill
+# - adjust ignores as tooling grows
+# - initial ignores for mkdocs site, venvs, and editor state
+
+# mkdocs build output
+site/
+
+# python + venv
+.venv/
+__pycache__/
+*.pyc
+
+# env
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# caches and logs
+.cache/
+*.log

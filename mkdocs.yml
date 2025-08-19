@@ -1,0 +1,62 @@
+# worklog. last edit 2025-08-19 by jmill
+# - tune theme, nav, site_url, repo_url once repo info known
+# - initial MkDocs Material config with sidebar ToC and modules scaffold
+
+site_name: Course Companion
+site_description: notes, labs, and visualizations for course modules
+# update this once the repo is known, e.g., https://<user>.github.io/<repo>/
+# site_url: https://<user>.github.io/<repo>/
+# optional: show "Edit on GitHub" links once repo is public
+# edit_uri: edit/main/docs/
+# repo_url: https://github.com/<user>/<repo>
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+
+use_directory_urls: true
+
+nav:
+  - Home: index.md
+  - Modules:
+      - Module 1 (m01): modules/m01.md
+      - Module 2 (m02): modules/m02.md
+      - Module 3 (m03): modules/m03.md
+      - Module 4 (m04): modules/m04.md
+      - Module 5 (m05): modules/m05.md
+      - Module 6 (m06): modules/m06.md
+      - Module 7 (m07): modules/m07.md
+      - Module 8 (m08): modules/m08.md
+  - Embeds: embeds.md
