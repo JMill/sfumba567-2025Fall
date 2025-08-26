@@ -51,13 +51,13 @@ use_directory_urls: true
 nav:
   - Home: index.md
   - Modules:
-      - Chapter 1 (ch1): modules/ch1.md
-      - Chapter 2 (ch2): modules/ch2.md
-      - Chapter 3 (ch3): modules/ch3.md
-      - Chapter 4 (ch4): modules/ch4.md
-      - Chapter 5 (ch5): modules/ch5.md
-      - Chapter 6 (ch6): modules/ch6.md
-      - Chapter 7 (ch7): modules/ch7.md
-      - Chapter 8 (ch8): modules/ch8.md
-      - Chapter 9 (ch9): modules/ch9.md
+      - Module 1 (m01): modules/ch1.md
+      - Module 2 (m02): modules/ch2.md
+      - Module 3 (m03): modules/ch3.md
+      - Module 4 (m04): modules/ch4.md
+      - Module 5 (m05): modules/ch5.md
+      - Module 6 (m06): modules/ch6.md
+      - Module 7 (m07): modules/ch7.md
+      - Module 8 (m08): modules/ch8.md
+  - Chapter 9 (ch9): modules/ch9.md
   - Embeds: embeds.md

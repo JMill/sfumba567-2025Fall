@@ -12,14 +12,15 @@ quick hub for modules, notes, and visuals.
 
 ## modules
 
-- [module 1 (m01)](modules/m01.md)
-- [module 2 (m02)](modules/m02.md)
-- [module 3 (m03)](modules/m03.md)
-- [module 4 (m04)](modules/m04.md)
-- [module 5 (m05)](modules/m05.md)
-- [module 6 (m06)](modules/m06.md)
-- [module 7 (m07)](modules/m07.md)
-- [module 8 (m08)](modules/m08.md)
+- [module 1 (ch1)](modules/ch1.md)
+- [module 2 (ch2)](modules/ch2.md)
+- [module 3 (ch3)](modules/ch3.md)
+- [module 4 (ch4)](modules/ch4.md)
+- [module 5 (ch5)](modules/ch5.md)
+- [module 6 (ch6)](modules/ch6.md)
+- [module 7 (ch7)](modules/ch7.md)
+- [module 8 (ch8)](modules/ch8.md)
+- [module 9 (ch9)](modules/ch9.md)
 
 ## visuals
 
